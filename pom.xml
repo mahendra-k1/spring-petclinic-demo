@@ -11,6 +11,7 @@
 
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
+  <packaging>jar</packaging>
   <version>3.4.0-SNAPSHOT</version>
 
   <name>petclinic</name>
@@ -341,6 +342,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
+            <artifactId>maven-jar-plugin</artifactId>
             <executions>
               <execution>
                 <id>unpack</id>
